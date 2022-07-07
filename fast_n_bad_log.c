@@ -1,6 +1,6 @@
 float fast_n_bad_log( float x )
 
-/* this is a horribly inaccurate handwaiving log 
+/* this is a horribly inaccurate "continued fraction" log 
    ,but (on the bright side) it diverges sorta linearly from ln() for x > 50
    and seems stable and continuous: accepts any numeric input (including negative numbers) 
     
