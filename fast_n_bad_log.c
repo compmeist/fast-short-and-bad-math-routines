@@ -2,7 +2,7 @@ float fast_n_bad_log( float x )
 
 /* this is a horribly inaccurate handwaiving log 
    ,but (on the bright side) it diverges sorta linearly from ln() for x > 50
-   and seems stable and relatively continuous: accepts any numeric input (including negative numbers) 
+   and seems stable and continuous: accepts any numeric input (including negative numbers) 
     
    ( it may be good for displaying a qualitative graph )
  
